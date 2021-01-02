@@ -376,8 +376,8 @@ footer a:hover { color: #ad0300; }
 .center { text-align: center; }
 
 /* My own header for the website*/
-.title-spec {padding: 60px; text-align: center; background: #13d4d8; color: white; font-size: 40px;}
-.title-spec2 {padding: 60px; text-align: center; background: #ad0300; color: white; font-size: 15px;}
+.title-spec {padding: 35px 70px; text-align: center; background: #ad0300; color: white; font-size: 40px;}
+.title-spec2 {padding: 60px; text-align: center; background: #13d4d8; color: white; font-size: 15px;}
 .post-header { margin-bottom: 40px; }
 
 .post-list { margin: 0; padding: 0; list-style: none; }
