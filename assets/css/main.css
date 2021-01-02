@@ -117,7 +117,7 @@ h6, .h6 { font-size: 0.75rem; }
 
 .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .s3, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .ss, .highlight .s1 { color: #FF3636; }
 
-.hljs-title, .hljs-id, .scss .hljs-preprocessor { color: #FF3636; font-weight: bold; }
+.hljs-title, .hljs-id, .scss .hljs-preprocessor { color: #cf0000; font-weight: bold; }
 
 .highlight .k { font-weight: normal; }
 
@@ -376,9 +376,9 @@ footer a:hover { color: #ad0300; }
 .center { text-align: center; }
 
 /* My own header for the website*/
-.title-spec {padding: 70px; text-align: center; background: #ad0300; color: white; font-size: 40px;}
-.title-spec2 {padding: 70px; text-align: center; background: #FFFFFF; color: black; font-size: 40px;}
-.title-spec3 {padding: 70px; text-align: center; background: #000000; color: white; font-size: 40px;}
+.title-spec {padding: 40px; text-align: center; background: #ad0300; color: white; font-size: 40px;}
+.title-spec2 {padding: 5px; text-align: center; background: #FFFFFF; color: black; font-size: 40px;}
+.title-spec3 {padding: 40px; text-align: center; background: #000000; color: white; font-size: 40px;}
 .post-header { margin-bottom: 40px; }
 
 .post-list { margin: 0; padding: 0; list-style: none; }
