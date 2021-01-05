@@ -660,10 +660,10 @@ div.equation { margin: 0.5rem 0; }
 .list-block img {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
-  max-width: 100%;
+  max-width: 200px;
   min-width: 100%;
   height:auto;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 10px;
   -moz-transition: opacity 0.35s ease;
   -o-transition: opacity 0.35s ease;
@@ -672,7 +672,7 @@ div.equation { margin: 0.5rem 0; }
 }
 .list-block figcaption {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 0;
   width: 100%;
   -moz-transform: translateY(-50%);
@@ -699,6 +699,23 @@ div.equation { margin: 0.5rem 0; }
   padding: 0 50px;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.demo-2 figure figcaption p {
+  margin-top: -45px;
+}
+.demo-2 figure:after {
+  -webkit-transform: skew(-45deg) scaleX(0);
+  -ms-transform: skew(-45deg) scaleX(0);
+  transform: skew(-45deg) scaleX(0);
+}
+.demo-2 figure:hover:after {
+  -webkit-transform: skew(45deg) scaleX(1);
+  -ms-transform: skew(45deg) scaleX(1);
+  transform: skew(45deg) scaleX(1);
+}
+.demo-2 figure:hover figcaption p {
+  margin-top: 0;
 }
 
 .demo-3 figure figcaption {
