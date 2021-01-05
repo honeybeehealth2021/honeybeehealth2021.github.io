@@ -660,8 +660,11 @@ div.equation { margin: 0.5rem 0; }
 .list-block img {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
-  width: 200px;
+  max-width: 100%;
+  min-width: 100%;
   height:auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   -moz-transition: opacity 0.35s ease;
   -o-transition: opacity 0.35s ease;
   -webkit-transition: opacity 0.35s ease;
@@ -746,28 +749,4 @@ div.equation { margin: 0.5rem 0; }
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-}
-
-.made-with-love {
-  margin-top: 30px;
-  padding: 10px;
-  font-size: 10px;
-  font-family: arial;
-  clear: left;t
-  text-align: center;
-  color: #fff;
-}
-.made-with-love i {
-  font-style: normal;
-  color: #F50057;
-  font-size: 14px;
-  position: relative;
-  top: 2px;
-}
-.made-with-love a {
-  color: #fff;
-  text-decoration: none;
-}
-.made-with-love a:hover {
-  text-decoration: underline;
 }
