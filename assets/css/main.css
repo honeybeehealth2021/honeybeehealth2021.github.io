@@ -660,7 +660,8 @@ div.equation { margin: 0.5rem 0; }
 .list-block img {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
-  width: 150%;
+  width: 200px;
+  height:auto;
   -moz-transition: opacity 0.35s ease;
   -o-transition: opacity 0.35s ease;
   -webkit-transition: opacity 0.35s ease;
