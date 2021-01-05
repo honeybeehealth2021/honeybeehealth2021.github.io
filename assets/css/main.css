@@ -616,7 +616,7 @@ div.equation { margin: 0.5rem 0; }
 }
 .list-block figure:after {
   background: #fff;
-  width: 300px;
+  width: 400px;
   height: 100%;
   position: absolute;
   left: 0;
@@ -669,7 +669,7 @@ div.equation { margin: 0.5rem 0; }
 }
 .list-block figcaption {
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 0;
   width: 100%;
   -moz-transform: translateY(-50%);
