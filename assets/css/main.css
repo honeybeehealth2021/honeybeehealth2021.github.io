@@ -675,7 +675,7 @@ div.equation { margin: 0.5rem 0; }
   position: absolute;
   top: 30%;
   left: 0;
-  width: 70%;
+  width: 80%;
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
@@ -693,13 +693,11 @@ div.equation { margin: 0.5rem 0; }
   padding: 0 30px 10px;
   display: inline-block;
   font-weight: 400;
-  text-transform: uppercase;
-  font-size: 24px;
+  font-size: 20px;
 }
 .list-block p {
   padding: 0 50px;
   font-size: 14px;
-  text-transform: uppercase;
 }
 
 .demo-2 figure figcaption p {
