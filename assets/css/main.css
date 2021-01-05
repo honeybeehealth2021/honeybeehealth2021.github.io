@@ -604,7 +604,6 @@ div.equation { margin: 0.5rem 0; }
 .list-block {
   float: left;
   margin: 1%;
-  margin-bottom: 1.5;
   width: 31.33333%;
   font-size: 0;
   overflow: hidden;
@@ -617,7 +616,7 @@ div.equation { margin: 0.5rem 0; }
 }
 .list-block figure:after {
   background: #fff;
-  width: 400px;
+  width: 200px;
   height: 100%;
   position: absolute;
   left: 0;
