@@ -616,8 +616,8 @@ div.equation { margin: 0.5rem 0; }
 }
 .list-block figure:after {
   background: #fff;
-  width: 200px;
-  height: auto;
+  width: 80%;
+  height: 100%;
   position: absolute;
   left: 0;
   bottom: 0;
