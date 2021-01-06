@@ -8,7 +8,7 @@
   .site-header { text-align: left; }
   .site-nav { margin-top: 0; }
   .site-header a { font-size: 1rem; }
-  .site-header .site-title { font-size: 1.25rem; float: left; }
+  .site-header .site-title { font-size: 1.25rem; float: left; padding: 5px 10px}
   .site-header .site-nav { float: right; }
   blockquote { margin-left: 2rem; padding: 2rem; }
   .social-icons-left { text-align: left; }
